@@ -9,8 +9,6 @@ type the following into your terminal [read more here](https://www.tutorialspoin
 
 `$$ jshell`
 
-
-
 ## Key ideas and Key words
 
 1. Reactive Programming
@@ -28,6 +26,6 @@ type the following into your terminal [read more here](https://www.tutorialspoin
 
 ### Reference Material
     
-1. Java 8 in Action: Lambdas, Streams, and functional-style programming by Urma, Raoul-Gabriel
+1. [Java 8 in Action: Lambdas, Streams, and functional-style programming by Urma, Raoul-Gabriel](https://www.amazon.com/Java-Action-Lambdas-functional-style-programming/dp/1617291994/ref=sr_1_1?keywords=Java+8+in+Action%3A+Lambdas%2C+Streams%2C+and+functional-style+programming+by+Urma%2C+Raoul-Gabriel&qid=1559605723&s=gateway&sr=8-1)
 
 2. 
