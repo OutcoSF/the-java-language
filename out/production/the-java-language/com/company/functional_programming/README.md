@@ -10,10 +10,6 @@ type the following into your terminal [read more here](https://www.tutorialspoin
 `$$ jshell`
 
 
-# Books on functional Programming in Java:
-    
-1. Java 8 in Action: Lambdas, Streams, and functional-style programming
-
 
 ## Key ideas and Key words
 
@@ -28,3 +24,10 @@ type the following into your terminal [read more here](https://www.tutorialspoin
 5. Default methods in interfaces
 
 6. Behavior parameterization
+
+
+### Reference Material
+    
+1. Java 8 in Action: Lambdas, Streams, and functional-style programming by Urma, Raoul-Gabriel
+
+2. 
