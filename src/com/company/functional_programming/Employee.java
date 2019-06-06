@@ -24,4 +24,8 @@ class Employee{
     public void setAge(int age) {
         this.age = age;
     }
+
+    public final static String stringing(Concat c, String s1, String s2) {
+        return c.upperAndConcat(s1, s2);
+    }
 }

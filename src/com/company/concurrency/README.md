@@ -28,11 +28,15 @@ follows:
 
 6. Immutable Objects
     
-    a. Why paradigm is better when dealing with immutability? And when?
+    a. Why this paradigm is better when dealing with immutability? And when?
     
 7. Executors
 
 8. Concurrent Collections
+
+### Some Questions to Ponder and Research
+
+1. What is Amdahl's law and how does it apply to concurrency?
  
 ### Reference Material
 
@@ -41,3 +45,5 @@ follows:
 2. [Oracle Docs on concurrency](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
 
 3. [Concurrent Programming in Java: Design Principles and Pattern (2nd Edition) by Doug Lea](https://www.amazon.com/Concurrent-Programming-Java%C2%99-Principles-Pattern/dp/0201310090/ref=sr_1_1?keywords=Concurrent+Programming+in+Java%3A+Design+Principles+and+Pattern+%282nd+Edition%29+by+Doug+Lea&qid=1559529160&s=gateway&sr=8-1)
+
+4. [Amdahl's law and other information on concurrency](http://tutorials.jenkov.com/java-concurrency/amdahls-law.html)

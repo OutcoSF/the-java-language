@@ -165,12 +165,11 @@ Books on Object Oriented Programming:
 
 - Effective Java
 
+- [Object Oriented Design](https://www.youtube.com/watch?v=fJW65Wo7IHI)
 
-Useful Links:
+- [Grokking the System Design Interview](https://www.educative.io/collection/5668639101419520/5649050225344512)
 
-[Object Oriented Design](https://www.youtube.com/watch?v=fJW65Wo7IHI)
-
-[Grokking the System Design Interview](https://www.educative.io/collection/5668639101419520/5649050225344512)
+- 
 
 
 
