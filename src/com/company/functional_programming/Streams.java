@@ -6,6 +6,9 @@ package com.company.functional_programming;
     Key questions:
 
         1. At the most abstract level, what is a stream?
+        2. What is a stream pipeline?
+        3. Key words: stream pipeline, chain of stream source, intermediate operations, and terminal operation
+        4. Intermediate operations are evaluated lazily, what does that mean in terms of operations?
 
 
  */
@@ -13,6 +16,7 @@ package com.company.functional_programming;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 public class Streams {
 
@@ -34,5 +38,14 @@ public class Streams {
                 .filter(s -> s.startsWith("C"))
                 .sorted()
                 .forEach(System.out::println);
+
+        List<String> list = Arrays.asList("a1", "a2", "a3");
+        Optional<String> stream = list.stream().filter(element -> {
+            System.out.println("filter() was called");
+            return element.contains("2");
+        }).map(element -> {
+            System.out.println("map() was called");
+            return element.toUpperCase();
+        }).findFirst();
     }
 }
