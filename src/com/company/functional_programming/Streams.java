@@ -10,7 +10,6 @@ package com.company.functional_programming;
         3. Key words: stream pipeline, chain of stream source, intermediate operations, and terminal operation
         4. Intermediate operations are evaluated lazily, what does that mean in terms of operations?
 
-
  */
 
 import java.util.ArrayList;
@@ -21,6 +20,18 @@ import java.util.Optional;
 public class Streams {
 
     public static void main(String[] args) {
+
+        List<String> list = Arrays.asList("a1", "a2", "a3");
+        Optional<String> stream = list.stream().filter(element -> {
+            System.out.println("filter() was called");
+            return element.contains("2");
+        }).map(element -> {
+            System.out.println("map() was called");
+            return element.toUpperCase();
+        }).findFirst();
+
+        System.out.println(stream);
+
         List<String> battleShipCells = Arrays.asList(
             "A0", "A6",
             "B12", "B6",
@@ -33,19 +44,11 @@ public class Streams {
 
 //        Streams!
         battleShipCells
-                .stream()
+                .stream() //start
                 .map(String::toLowerCase)
-                .filter(s -> s.startsWith("C"))
+                .filter(s -> s.startsWith("c"))
                 .sorted()
                 .forEach(System.out::println);
 
-        List<String> list = Arrays.asList("a1", "a2", "a3");
-        Optional<String> stream = list.stream().filter(element -> {
-            System.out.println("filter() was called");
-            return element.contains("2");
-        }).map(element -> {
-            System.out.println("map() was called");
-            return element.toUpperCase();
-        }).findFirst();
     }
 }
