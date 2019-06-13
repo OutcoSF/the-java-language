@@ -41,7 +41,7 @@ class SecondClass {
         };
 
         System.out.println("The AnotherClass class's name is " + getClass().getSimpleName());
-        return Employee.stringing(c,"String1","String2");
+        return TeamMember.stringing(c,"String1","String2");
 
     }
 
