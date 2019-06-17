@@ -1,10 +1,10 @@
 package com.company.functional_programming;
 
-class Employee{
+class TeamMember {
     private String name;
     private int age;
 
-    public Employee(String name, int age) {
+    public TeamMember(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -27,5 +27,10 @@ class Employee{
 
     public final static String stringing(Concat c, String s1, String s2) {
         return c.upperAndConcat(s1, s2);
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }
