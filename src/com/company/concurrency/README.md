@@ -34,6 +34,8 @@ follows:
 
 8. Concurrent Collections
 
+9. Reactive Programming
+
 ### Some Questions to Ponder and Research
 
 1. What is Amdahl's law and how does it apply to concurrency?
