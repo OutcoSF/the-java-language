@@ -94,4 +94,5 @@ public class StreamsAndLambdas {
         // and what will happen if you uncomment it and chain it to the stream?
 //                .count();
     }
+
 }
