@@ -23,7 +23,6 @@ type the following into your terminal [read more here](https://www.tutorialspoin
 
 6. Behavior parameterization
 
-
 ### Reference Material
 
     Please note: within each .java file more extensive 
